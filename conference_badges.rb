@@ -13,17 +13,8 @@ def batch_badge_creator(array)
     counter = 1
     list = ["Edsger, Ada, Charles, Alan, Grace, Linus, Matz"]
     list.each do |list|
+       puts "Hello #{list}!"
        puts "room  #{counter}"
-  puts "is for #{list}!"
+ 
   counter =+ 1 
 end
-
-    
-    
-    
-    brothers = ["Tim", "Tom", "Jim"]
-counter = 1
-brothers.each do |brother|
-  puts "This is loop number #{counter}"
-  puts "Stop hitting yourself #{brother}!"
-  counter += 1
