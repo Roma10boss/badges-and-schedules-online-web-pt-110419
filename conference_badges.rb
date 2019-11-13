@@ -14,7 +14,9 @@ def batch_badge_creator(array)
     list = ["Edsger, Ada, Charles, Alan, Grace, Linus, Matz"]
     list.each do |list|
        puts "Hello #{list}!"
-       puts "room  #{counter}"
- 
+       puts "You'll be assigned to room #{counter}!"
   counter =+ 1 
 end
+def priter(print)
+  return ba
+  
