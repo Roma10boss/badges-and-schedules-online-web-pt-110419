@@ -10,7 +10,20 @@ def batch_badge_creator(array)
     return "#{array}"
   end
   def assign_rooms(list)
-    room = [1..7]
+    counter = 1
     list = ["Edsger, Ada, Charles, Alan, Grace, Linus, Matz"]
-    while counter = 0 
+    list.each do |list|
+       puts "room  #{counter}"
+  puts "is for #{list}!"
+  counter =+ 1 
+end
+
     
+    
+    
+    brothers = ["Tim", "Tom", "Jim"]
+counter = 1
+brothers.each do |brother|
+  puts "This is loop number #{counter}"
+  puts "Stop hitting yourself #{brother}!"
+  counter += 1
