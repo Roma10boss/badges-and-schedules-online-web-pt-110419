@@ -18,5 +18,7 @@ def batch_badge_creator(array)
   counter =+ 1 
 end
 def priter(print)
-  return ba
+  return batch_badge_creator
+  return assign_rooms
+end 
   
